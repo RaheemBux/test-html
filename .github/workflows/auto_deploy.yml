@@ -34,5 +34,5 @@ jobs:
         run: npm install --global surge
         
       - name: Deploying using surge
-        run: surge ./ my-hello-world.surge.sh --token {{ sectrets.SECURE_TOKEN}}
+        run: surge ./ my-hello-world.surge.sh --token {{ secrets.SECURE_TOKEN}}
           
